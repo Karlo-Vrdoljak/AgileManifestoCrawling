@@ -24,3 +24,5 @@ app.get("/data", (_, res) => {
 app.listen(port, () =>
   console.log("> Server is up and running at: http://localhost:" + port)
 );
+
+export default app;
